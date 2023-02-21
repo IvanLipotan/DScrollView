@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18E94D4329A4B545006D9485 /* DScrollViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E94D3F29A4B545006D9485 /* DScrollViewContainer.swift */; };
-		18E94D4429A4B545006D9485 /* DScrollViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E94D4029A4B545006D9485 /* DScrollViewElement.swift */; };
-		18E94D4529A4B545006D9485 /* DScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E94D4129A4B545006D9485 /* DScrollView.swift */; };
-		18E94D4629A4B545006D9485 /* DScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E94D4229A4B545006D9485 /* DScrollView+.swift */; };
 		201CB93BA8257BAB680EE3F1FA2AB96D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		27F2DB549FD2F5E96717D571B4A9ADE3 /* Pods-DScrollView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87354FB8B7E867E6D20352678D2E24E8 /* Pods-DScrollView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39039918BFCAE4BFE86F15E561CACA56 /* DScrollView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2362790A478623D3725AEA0A26A70B6B /* DScrollView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -41,10 +37,10 @@
 
 /* Begin PBXFileReference section */
 		0BF5A80079812B61B26895FC6EDBEBCA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		18E94D3F29A4B545006D9485 /* DScrollViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DScrollViewContainer.swift; path = ../../XcodeProjects/DScrollview/Source/DScrollViewContainer.swift; sourceTree = "<group>"; };
-		18E94D4029A4B545006D9485 /* DScrollViewElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DScrollViewElement.swift; path = ../../XcodeProjects/DScrollview/Source/DScrollViewElement.swift; sourceTree = "<group>"; };
-		18E94D4129A4B545006D9485 /* DScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DScrollView.swift; path = ../../XcodeProjects/DScrollview/Source/DScrollView.swift; sourceTree = "<group>"; };
-		18E94D4229A4B545006D9485 /* DScrollView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DScrollView+.swift"; path = "../../XcodeProjects/DScrollview/Source/DScrollView+.swift"; sourceTree = "<group>"; };
+		18E94D4729A4BAEF006D9485 /* DScrollView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DScrollView+.swift"; sourceTree = "<group>"; };
+		18E94D4829A4BAEF006D9485 /* DScrollViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DScrollViewContainer.swift; sourceTree = "<group>"; };
+		18E94D4929A4BAEF006D9485 /* DScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DScrollView.swift; sourceTree = "<group>"; };
+		18E94D4A29A4BAEF006D9485 /* DScrollViewElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DScrollViewElement.swift; sourceTree = "<group>"; };
 		2000385F7FF817A6716D03C2F507E78F /* Pods-DScrollView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DScrollView_Example-Info.plist"; sourceTree = "<group>"; };
 		2362790A478623D3725AEA0A26A70B6B /* DScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DScrollView-umbrella.h"; sourceTree = "<group>"; };
 		2FE657E2FB2225B6975C1DBFBC469227 /* Pods-DScrollView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DScrollView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -106,17 +102,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		189B4B3929A4AC5A001FFA26 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				18E94D4129A4B545006D9485 /* DScrollView.swift */,
-				18E94D4229A4B545006D9485 /* DScrollView+.swift */,
-				18E94D3F29A4B545006D9485 /* DScrollViewContainer.swift */,
-				18E94D4029A4B545006D9485 /* DScrollViewElement.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 		1D044CB42CFC44A644B7520E0EAA2C2E /* Pods-DScrollView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,7 +173,10 @@
 		AB93FF7C56EB7FC8269A34C27DE95E68 /* DScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				189B4B3929A4AC5A001FFA26 /* Source */,
+				18E94D4929A4BAEF006D9485 /* DScrollView.swift */,
+				18E94D4729A4BAEF006D9485 /* DScrollView+.swift */,
+				18E94D4829A4BAEF006D9485 /* DScrollViewContainer.swift */,
+				18E94D4A29A4BAEF006D9485 /* DScrollViewElement.swift */,
 				529F86CB3FFAA252FCBE7E1A6CCAE13E /* Pod */,
 				7566822A0C84C526D041B110E7C4345A /* Support Files */,
 			);
@@ -407,11 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E94D4429A4B545006D9485 /* DScrollViewElement.swift in Sources */,
-				18E94D4329A4B545006D9485 /* DScrollViewContainer.swift in Sources */,
-				18E94D4529A4B545006D9485 /* DScrollView.swift in Sources */,
 				7574D1A163B5BAA34B352D6C18E3783E /* DScrollView-dummy.m in Sources */,
-				18E94D4629A4B545006D9485 /* DScrollView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
